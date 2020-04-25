@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+number=$1
+shift
+ssh leviathan${number}@leviathan.labs.overthewire.org -p 2223 $@
