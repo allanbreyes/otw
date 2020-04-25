@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+number=$1
+shift
+ssh krypton${number}@krypton.labs.overthewire.org -p 2222 $@
