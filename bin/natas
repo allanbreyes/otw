@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+xdg-open "http://natas$1:$(cat "flags/natas$1")@natas$1.natas.labs.overthewire.org"
