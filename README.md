@@ -7,7 +7,7 @@ Tooling and solutions for [OverTheWire](https://overthewire.org) war games.
 
 * Clone the repository and `cd` into it.
 * Run `export PATH="$PWD/bin:$PATH"`.
-* (Optional) Run `rm flags/*` to delete the flags.
+* (Optional) Run `rm flags/* guides/*` to delete flags and guides (solutions).
 
 ## Example Usage (Linux)
 
