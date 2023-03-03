@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
 
-xdg-open "http://natas$1:$(cat "flags/natas$1")@natas$1.natas.labs.overthewire.org"
+url="http://natas$1:$(cat "flags/natas$1")@natas$1.natas.labs.overthewire.org"
+
+if [ "$(uname)" == "Darwin" ]; then
+    open "$url"
+else
+    xdg-open "$url"
+fi
